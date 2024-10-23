@@ -1,0 +1,55 @@
+body{
+    font-family: 'gentium book basic' serif;
+}
+header{
+    font-size: 30px;
+    text-align: center;
+    color: #c69c6d;
+    text-decoration: underline overline;
+    text-shadow: 2px 2px black;
+}
+main{
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+body{
+    border: 10px dashed rgba(0, 0, 0, 0.386);
+    margin: 20px;
+    padding-bottom: 15px;
+}
+.primerParrafo::first-letter{
+    color: #c69c6d;
+    font-size: 40px;
+    font-family: initial;
+    float: left;
+    background-color: brown;
+    padding-right: auto;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: #c69c6d;
+    text-transform: uppercase;
+}
+.NOMBRE{
+    font-style: italic;
+    text-decoration: underline;
+    margin:2px;
+}
+a:hover{
+    color:brown ;
+}
+button{
+    box-shadow: 6px 6px 5px black;
+    color: white;
+    background-color: #c69c6d ;
+    margin-right: 35%;
+    margin-left: 38%;
+    border-radius: 10px;
+    padding: 10px;
+}
+button a{
+    color: white;
+}
